@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <img src="imgs/logo.png" class="logo">
+    <form action="register.php" class="main" method="POST">
+            <div class="registerList">
+                <img src="imgs/account.png" class="registerTable">
+                <input type="text" class="registerTextarea" name="account" placeholder="ACCOUNT"></input>
+            </div>
+            <div class="registerList">
+                <img src="imgs/password.png" class="registerTable">
+                <input type="password" class="registerTextarea" name="password1" placeholder="PASSWORD（6位及以上）"></input>
+            </div>
+            <div class="registerList">
+                <div class="registerTable"></div>
+                <input type="password" class="registerTextarea" name="password2" placeholder="CONFIRM"></input>
+            </div>
+        </div>
+        <button class="commit"></button>
+
+    </form>
+</body>
+</html>

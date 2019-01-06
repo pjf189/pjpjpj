@@ -1,0 +1,118 @@
+* {  
+    margin: 0;  
+    padding: 0;
+    overflow: hidden;  
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+textarea {
+    resize: none;
+}
+
+body {
+    width: 100%;
+    /* height: 62.8rem; */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background-color: #B9DCED;
+}
+
+.bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.main {
+    width: 80%;
+    margin: auto;
+    
+}
+
+.logo {
+    display: block;
+    margin: auto;
+    height: 5.7rem;
+    /* width: 1rem; */
+    margin-top: 3rem;
+}
+
+.mainForm {
+    margin-top: 4.6rem;
+}
+
+.loginContiner {
+    width: 90%;
+    height: 5.4rem;
+    margin: auto;
+    background: rgba(41,116,186,0.4);
+}
+
+.account {
+    margin-top: 0rem;
+}
+
+.loginTable {
+    float: left;
+    height: 2rem;
+    width: 2rem;
+    margin-left: 4%;
+    margin-top: 1.8rem;
+    margin-right: 0.4rem;
+}
+
+.loginTextarea {
+    outline: none;
+    width: 80%;
+    height: 5.3rem;
+    border: none;
+    display: inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 4%;
+    font-size: 2.2rem;
+    line-height: 5.3rem;
+    background: transparent;
+}
+
+.loginIn {
+    outline: none;
+    width: 90%;
+    display: block;
+    margin: auto;
+    height: 2.6rem;
+    color: #e3e7f0;
+    background: rgba(255,255,255,0.4);
+    font-size: 2rem;
+    border: none;
+    text-decoration: none;
+}
+
+.or {
+    width: 90%;
+    height: 1.2rem;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.register {
+    width: 90%;
+    display: block;
+    margin: auto;
+    height: 2.6rem;
+    color: #e3e7f0;
+    background: rgba(255,255,255,0.4);
+    font-size: 1.8rem;
+    border: none;
+    text-align: center;
+    margin-top: 2.2rem;
+    text-decoration: none;
+
+}
+

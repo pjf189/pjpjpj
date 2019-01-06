@@ -1,0 +1,208 @@
+* {  
+    margin: 0;  
+    padding: 0;
+    font-family: "微软雅黑";
+    letter-spacing: 0.1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+textarea {
+    resize: none;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(../imgs/bg.png);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+}
+
+.leftPage {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    width: 70%;
+    background: rgba(37,97,154, 0.9);
+    display: none;
+}
+
+.person {
+    display: inline-block;
+    height: 0.9rem;
+    width: 24%;
+    margin-left: 3.4rem;
+    margin-bottom: 0.4rem;
+}
+
+.leftPageIcon {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    width: 4.8rem;
+    height: 4.8rem;
+}
+
+.leftPageId {
+    display: inline-block;
+    vertical-align:top;
+    color: #ffffff;
+    font-size: 1.6rem;
+    margin-left: 2rem;
+    margin-top: 2.6rem;
+    filter:alpha(opacity=80);
+	-moz-opacity:0.8;
+	opacity: 0.8;
+}
+
+.leftPageNav {
+    width: 100%;
+    background: rgba(12,62,105,0.7);
+    position: absolute;
+    top: 13rem;
+    bottom: 0;
+    padding-top: 5rem;
+}
+
+.leftPageList {
+    width: 100%;
+
+    display: block;
+}
+
+.leftPageListIcon {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 2rem;
+    margin-top: 1.8rem;
+}
+
+.leftPageListTable {
+    vertical-align:top;
+    margin-left: 2.8rem;
+    margin-top: 2.4rem;
+    height: 1.1rem;
+}
+
+.foot {
+    position: fixed;
+    width: 100%;
+    height: 3.4rem;
+    bottom: 0rem;
+    background-image: url(../imgs/bg.png);
+    background-position: bottom;
+}
+
+.foot:before {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    display: block;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: rgba(255,255,255, 0.5);
+}
+
+
+.head {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 3.4rem;
+    overflow: hidden;
+    background-image: url(../imgs/bg.png);
+    background-position: top;
+}
+
+.icon {
+    display: block;
+    width: 6rem;
+    height: 6rem;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.id {
+    margin-top: 0.8rem;
+    font-weight: 900;
+    text-align: center;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.box {
+    position: absolute;
+    width: 100%;
+    height: 3.4rem;
+    z-index: -1;
+}
+
+.setting {
+    margin-top: 0.8rem;
+    margin-left: 1.2rem;
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+.logo {
+    width: 6rem;
+    height: 1.6rem;
+    margin-left: 25%;
+}
+
+.main {
+    width: 80%;
+    margin-left: 1.7rem;
+}
+
+.text {
+    margin-top: 6.4rem;
+    height: 60vh;
+    width: 100%;
+    border: none;
+    background: rgba(255,255,255,0.5);
+    padding: 0.8rem;
+    font-size: 1.2rem;
+}
+
+.btn {
+    height: 2.3rem;
+    width: 50%;
+    background: rgba(48,113,166,0.96);
+    border: none;
+    color: #ffffff;
+    filter:alpha(opacity=80);
+	-moz-opacity:0.8;
+	opacity: 0.8;
+    border-radius: 0.6rem;
+    margin-left: 60%;
+    margin-top: 0.4rem;
+}
+
+.fontNav {
+    display: block;
+    float: left;
+    margin-left: 16%;
+}
+
+.fontPng {
+    display: block;
+    height: 2rem;
+    margin-top: 0.6rem;
+    margin-left: 0.2rem;
+}
+
+.fontAdd {
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    margin-top: 0.2rem;
+}
